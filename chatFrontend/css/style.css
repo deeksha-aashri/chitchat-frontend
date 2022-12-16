@@ -1,0 +1,57 @@
+nav{
+    background-color: rgb(22, 68, 6);
+    padding: 1rem;
+    text-align: center;
+}
+.logo{
+    align-items: center;
+    height: 5rem;
+    width: 5rem;
+}
+.container{
+    background-color: pink;
+    display: block;
+    margin: auto;
+    max-width: 50vw;
+    height: 70vh;
+    border: 3px solid black;
+    border-radius: 6px;
+    margin-top: 1rem;
+    overflow-y: auto;
+}
+.message{
+padding: 1rem;
+margin: 1rem;
+border-radius: 1rem;
+}
+.left{
+background-color: azure;
+float: left;
+clear: both;
+
+}
+.right{
+    background-color: aqua;
+    float:right;
+    clear: both;
+}
+
+.send{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    
+}
+#messageInput{
+    height: 2rem;
+    border-radius: 6px;
+    width: 40vw;
+   border: 3px solid black;
+}
+.submit-btn{
+height: 2rem;
+width: 10vw;
+border-radius: 6px;
+border: 3px solid black;
+cursor: pointer;
+}
