@@ -1,5 +1,8 @@
+body{
+  
+}
 nav{
-    background-color: rgb(22, 68, 6);
+    
     padding: 1rem;
     text-align: center;
 }
@@ -8,8 +11,13 @@ nav{
     height: 5rem;
     width: 5rem;
 }
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container{
-    background-color: pink;
+    background-color: beige;
     display: block;
     margin: auto;
     max-width: 50vw;
@@ -31,12 +39,12 @@ clear: both;
 
 }
 .right{
-    background-color: aqua;
+    background-color: #93e4e4;
     float:right;
     clear: both;
 }
 .center{
-    background-color: rgb(209, 201, 201);
+    background-color:  rgb(249 225 88);
     clear: both;
     max-width: fit-content;
     display: block;
@@ -63,4 +71,5 @@ width: 10vw;
 border-radius: 6px;
 border: 3px solid black;
 cursor: pointer;
+background-color:  rgb(249 225 88);
 }
