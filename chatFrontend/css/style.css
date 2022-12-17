@@ -35,7 +35,16 @@ clear: both;
     float:right;
     clear: both;
 }
-
+.center{
+    background-color: rgb(209, 201, 201);
+    clear: both;
+    max-width: fit-content;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
 .send{
     display: flex;
     justify-content: center;

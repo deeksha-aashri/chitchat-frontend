@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>chitchat- Realtime chat app</title>
-    <script src="js/client.js"></script>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js ">
+         </script>
+         
+    <script defer src="js/client.js"></script>
+ 
     <link href='css/style.css' rel="stylesheet">
 </head>
 <body>
@@ -14,28 +18,19 @@
         <img class="logo" src="images\chatlogo.jpeg" >
     </nav>
     <div class="container">
-        <div class=" message left">left message box</div>
-        <div class="message right">right</div>
-        <!-- <div class="message right">right</div>
-        <div class="message right">right</div>
-        <div class="message right">right</div>
-        <div class="message right">right</div>
-        <div class="message right">right</div>
-        <div class="message right">right</div>
-        <div class="message right">right</div>
-        <div class="message right">right</div>
-        <div class="message right">right</div>
-        <div class=" message left">left message box</div> -->
+      
         
     </div>
 
     <div class="send">
 
-        <form action="#" id="msend-container">
+        <form action="#" id="send-container">
             <input type="text "  name="messageInput" id="messageInput">
+        
             <button class='submit-btn' type="submit">
                 Send
             </button>
+            </form>
                     </div>
 </body>
 </html>
